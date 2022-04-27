@@ -1,8 +1,8 @@
 import React from "react";
 
-function ButtonMenu({language, title, onClick, href}) {
+function ButtonMenu({title, href}) {
     return ( 
-        <button className="menu-btn" onClick={onClick} language={language}>
+        <button className="menu-btn" >
             <a href={href}>{title}</a>
         </button>
     )

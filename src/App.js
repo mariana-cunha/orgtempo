@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import MenuBar from './components/MenuBar';
 import Portugues from './pages/Portugues';
 import Espanhol from './pages/Espanhol';
@@ -12,23 +12,36 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Images from './components/Images';
 
 function App() {
 
 
   return (
     <div className="layout-principal">
-      {/* <MenuBar /> */}
 
-      <Routes>
-        <Route path='/' index element={<Portugues />} />
-        <Route path='ingles' element={<Ingles />}  />
-        <Route path='espanhol' element={<Espanhol />} />
-        <Route path='frances' element={<Frances />} />
-        <Route path='alemao' element={<Alemao />} />
-        <Route path='*' element={<NotFound></NotFound>} />
-      </Routes>
       
+
+
+      {/* <div> */}
+        <MenuBar />
+          <Routes>
+          <Route path='/' index element={<Portugues />} />
+          <Route path='ingles' element={<Ingles />}  />
+          <Route path='espanhol' element={<Espanhol />} />
+          <Route path='frances' element={<Frances />} />
+          <Route path='alemao' element={<Alemao />} />
+          <Route path='*' element={<NotFound></NotFound>} />
+        </Routes>
+      
+      {/* </div> */}
+
+      <Images />
+
+      <div className='contact'>
+        <span><a href='https://www.instagram.com/tempobr/'>@tempobr</a></span>
+        <span>contato@orgtempo.com</span>
+      </div>
       
     </div>
   );

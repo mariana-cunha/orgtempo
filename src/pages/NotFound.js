@@ -4,8 +4,9 @@ import MenuBar from "../components/MenuBar";
 function NotFound() {
     return (
         <>
-        <MenuBar /> 
-            <span>not found</span>
+            {/* <MenuBar />  */}
+            <span>não tem nada aqui não / page not found </span>
+            
         </>
     )
 }

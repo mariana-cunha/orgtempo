@@ -4,7 +4,7 @@ import MenuBar from "../components/MenuBar";
 function Frances() {
     return (
         <>
-        <MenuBar /> 
+        {/* <MenuBar />  */}
             <section className="text" >
                 <span>
                     S'asseoir tous deux au bord d'un flot qui passe,<br /> 
@@ -25,7 +25,6 @@ function Frances() {
                     les ignorer;<br />
                 </span>
 
-                <img src="./sao_paulo.jpeg"></img>
             </section>   
         </>
     )
