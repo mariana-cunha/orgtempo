@@ -1,0 +1,121 @@
+.layout-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // @media (max-width: 1000px) {
+    //     flex-direction: column;
+    //     align-items: center;
+    // }
+}
+
+.menu { 
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+
+    .logo { 
+        max-width: 20vw;
+
+        @media (max-width: 1000px) {
+            max-width: 30vw;
+        }
+
+        @media (max-width: 414px) {
+            max-width: 35vw;
+        }
+    }
+
+    .menu-btn { 
+        padding: 5px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+
+    .links {
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+    }
+
+    @media (max-width: 1000px) {
+        
+        flex-direction: row;
+        padding: 0;
+        align-content: center;
+        align-items: center;
+        width: auto;
+        
+    }
+
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 55vw;
+    padding: 20px;
+    height: 100%;
+
+    @media (max-width: 1000px) {
+        max-width: 100%;
+    }
+
+    span { 
+        padding: 10px;
+        text-align: left;
+    }
+
+    img {
+        width: 40vw;
+        padding: 10px 0;
+    }
+}
+
+span { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images-collage { 
+    width: 100%;
+    display: flex;
+    overflow: auto;
+
+    // @media (max-width: 1000px) {
+    //     width: 100%;
+    //     display: flex;
+    //     overflow: auto;
+    // }
+
+    img { 
+        width: 20vw;
+        padding: 2px;
+
+        @media (max-width: 1000px) {
+            width: 80vw;
+        }
+    }
+}
+
+li.menu-link { 
+    align-items: center;
+
+    > a { 
+        text-decoration: none !important;
+        color: #000000;
+        /* padding: 0 0px 0 5px; */
+        text-align: center;
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
