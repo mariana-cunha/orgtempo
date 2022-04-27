@@ -15,7 +15,7 @@ function MenuBar(){
     return (
         <section className='menu'>
             <Link to="/">
-                <img className="logo" alt="logo da tempo" src="./tempo_adesivo_15x15.png" />
+                <img className="logo" alt="logo da tempo" src="./gif_respira_2.gif" />
             </Link>
             <div className="links">
                 <FormControl sx={{ minWidth: 80}}>

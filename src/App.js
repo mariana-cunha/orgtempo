@@ -13,6 +13,7 @@ import {
   Link
 } from "react-router-dom";
 import Images from './components/Images';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -38,10 +39,7 @@ function App() {
 
       <Images />
 
-      <div className='contact'>
-        <span><a href='https://www.instagram.com/tempobr/'>@tempobr</a></span>
-        <span>contato@orgtempo.com</span>
-      </div>
+      <Footer />
       
     </div>
   );
