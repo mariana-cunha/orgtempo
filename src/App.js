@@ -9,8 +9,7 @@ import Frances from './pages/Frances'
 import NotFound from './pages/NotFound'
 import {
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Images from './components/Images';
 import Footer from './components/Footer';
@@ -20,27 +19,17 @@ function App() {
 
   return (
     <div className="layout-principal">
-
-      
-
-
-      {/* <div> */}
-        <MenuBar />
-          <Routes>
-          <Route path='/' index element={<Portugues />} />
-          <Route path='ingles' element={<Ingles />}  />
-          <Route path='espanhol' element={<Espanhol />} />
-          <Route path='frances' element={<Frances />} />
-          <Route path='alemao' element={<Alemao />} />
-          <Route path='*' element={<NotFound></NotFound>} />
-        </Routes>
-      
-      {/* </div> */}
-
+      <MenuBar />
+      <Routes>
+        <Route path='/' index element={<Portugues />} />
+        <Route path='ingles' element={<Ingles />}  />
+        <Route path='espanhol' element={<Espanhol />} />
+        <Route path='frances' element={<Frances />} />
+        <Route path='alemao' element={<Alemao />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
       <Images />
-
       <Footer />
-      
     </div>
   );
 }
