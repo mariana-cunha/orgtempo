@@ -7,6 +7,7 @@ function Footer() {
             <span className="social-media"><a href="https://www.instagram.com/tempobr/">@tempobr</a></span>
             <span>contato@orgtempo.com</span>
         </div>
+        
     )
 }
 
