@@ -86,7 +86,6 @@ span {
     width: 100%;
     display: flex;
     overflow: auto;
-    height: inherit;
 
     // @media (max-width: 1000px) {
     //     width: 100%;
@@ -95,11 +94,11 @@ span {
     // }
 
     img { 
-        width: 30%;
+        width: 30vw;
         padding: 2px;
 
         @media (max-width: 1000px) {
-            width: 60%;
+            width: 80vw;
             height: inherit;
         }
     }
