@@ -95,11 +95,11 @@ span {
     // }
 
     img { 
-        width: 30vw;
+        width: 30%;
         padding: 2px;
 
         @media (max-width: 1000px) {
-            width: 80vw;
+            width: 60%;
             height: inherit;
         }
     }
