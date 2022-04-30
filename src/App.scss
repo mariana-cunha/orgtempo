@@ -76,11 +76,6 @@
         padding: 10px;
         text-align: left;
     }
-
-    img {
-        width: 40vw;
-        padding: 10px 0;
-    }
 }
 
 span { 
@@ -91,6 +86,7 @@ span {
     width: 100%;
     display: flex;
     overflow: auto;
+    height: inherit;
 
     // @media (max-width: 1000px) {
     //     width: 100%;
@@ -104,6 +100,7 @@ span {
 
         @media (max-width: 1000px) {
             width: 80vw;
+            height: inherit;
         }
     }
 }
