@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -28,31 +28,31 @@ function MenuBar(){
                         onChange={handleChange}
                         autoWidth={true}
                     >
-                        <MenuItem className="menu-link" value={"portugues"}>
-                            <Link to="/">
+                        <Link to="/">
+                            <MenuItem>
                                 PT
-                            </Link>
-                        </MenuItem>
-                        <MenuItem className="menu-link" value={"espanhol"}>
-                            <Link to="/espanhol">
+                            </MenuItem>
+                        </Link>
+                        <Link to="/espanhol">
+                            <MenuItem>
                                 ES
-                            </Link>
-                        </MenuItem>
-                        <MenuItem className="menu-link" value={"ingles"}>
-                            <Link to="/ingles">
+                            </MenuItem>
+                        </Link>
+                        <Link to="/ingles">
+                            <MenuItem>
                                 EN
-                            </Link>
-                        </MenuItem>
-                        <MenuItem className="menu-link" value={"alemao"}>
-                            <Link to="/alemao">
+                            </MenuItem>
+                        </Link>
+                        <Link to="/alemao">
+                            <MenuItem>
                                 DE
-                            </Link>
-                        </MenuItem>
-                        <MenuItem className="menu-link" value={"frances"}>
-                            <Link to="/frances">
+                            </MenuItem>
+                        </Link>
+                        <Link to="/frances">
+                            <MenuItem>
                                 FR
-                            </Link>
-                        </MenuItem>
+                            </MenuItem>
+                        </Link>
                     </Select>
                 </FormControl>
             </div>

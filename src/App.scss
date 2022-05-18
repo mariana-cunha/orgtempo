@@ -105,7 +105,7 @@ span {
     }
 }
 
-li.menu-link { 
+.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list { 
     align-items: center;
 
     > a { 
@@ -113,6 +113,7 @@ li.menu-link {
         color: #000000;
         /* padding: 0 0px 0 5px; */
         text-align: center;
+        display: block;
     }
 }
 
