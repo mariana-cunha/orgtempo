@@ -26,7 +26,7 @@ function App() {
         <Route path='/espanhol' element={<Espanhol />} />
         <Route path='/frances' element={<Frances />} />
         <Route path='/alemao' element={<Alemao />} />
-        <Route path='*' element={<NotFound />} />
+        
       </Routes>
       <Images />
       <Footer />
